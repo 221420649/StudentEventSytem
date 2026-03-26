@@ -18,8 +18,8 @@ public class EventFactoryTest {
                 "Fresher's Party",
                 "Annual music event on campus",
                 LocalDate.of(2026, 4, 15),
-                LocalTime.of(18, 0),
-                200,
+                LocalTime.of(20, 00),
+                500,
                 true,
                 "V001"
         );
@@ -37,8 +37,8 @@ public class EventFactoryTest {
                 "E002",
                 "Career Expo",
                 "Annual career expo",
-                LocalDate.of(2026, 5, 1),
-                LocalTime.of(9, 0),
+                LocalDate.of(2026, 05, 01),
+                LocalTime.of(9, 00),
                 500,
                 true,
                 "V001"
@@ -54,8 +54,8 @@ public class EventFactoryTest {
                 "E003",
                 "Open Day",
                 "Annual Open Day Event",
-                LocalDate.of(2026, 6, 10),
-                LocalTime.of(8, 0),
+                LocalDate.of(2026, 06, 10),
+                LocalTime.of(8, 00),
                 300,
                 true,
                 "V002"
@@ -70,8 +70,8 @@ public class EventFactoryTest {
                 "E004",
                 "Cancelled Talk",
                 "This event was cancelled",
-                LocalDate.of(2026, 3, 1),
-                LocalTime.of(10, 0),
+                LocalDate.of(2026, 03, 1),
+                LocalTime.of(10, 00),
                 50,
                 false,
                 "V003"
